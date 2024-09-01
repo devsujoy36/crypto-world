@@ -1,5 +1,4 @@
 
-import freefireImg from '../assets/images/freefire.png';
 
 const Contact = () => {
 
@@ -75,7 +74,6 @@ const Contact = () => {
                             <div>
                                 <p>Email :</p>
                                 <p className="text-gray-700">sdsujoy920243@gmail.com</p>
-                                {/* <p className="text-gray-700">arifahmedarif142@gmail.com</p> */}
                             </div>
                         </div>
 
@@ -84,18 +82,10 @@ const Contact = () => {
                             <div>
                                 <p>Phone No :</p>
                                 <p className="text-gray-700">+01303436299</p>
-                               
+
                             </div>
                         </div>
-                        {/* <div className="mb-8 flex item-center">
-                            <div>
-                                <img className="w-10 h-10 mr-2" src={`${freefireImg}`} alt="" />
-                            </div>
-                            <div>
-                                <p>Free Fire User Id</p>
-                                <p>1819501439</p>
-                            </div>
-                        </div> */}
+
 
                         <div className="mb-4">
                             <h3 className="text-xl font-bold mb-2">Follow Us</h3>

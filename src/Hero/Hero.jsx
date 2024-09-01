@@ -1,4 +1,4 @@
-import bgImg from '../assets/images/img1.jpg'
+import bgImg from '../assets/images/bg2.jpg'
 export default function Hero({ getStarted, setGetStarted }) {
     return (
         <div

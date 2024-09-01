@@ -1,6 +1,6 @@
 
 
-
+ 
 export default function Navbar({ count, setCount }) {
     return (
         <div className="navbar bg-gray-200">

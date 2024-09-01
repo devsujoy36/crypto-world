@@ -1,15 +1,15 @@
-import Login from "../Login/Login";
 
-export default function Signup({ signup, setSignUp }) {
-    console.log(signup);
+import bgImg from '../assets/images/bg2.jpg'
+
+export default function Signup() {
 
     return (
         <div>
             {
-                <div className="hero bg-base-200 min-h-screen">
+                <div style={{ backgroundImage: `url(${bgImg})`}} className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex">
                         <div className="text-center lg:text-left">
-                            <h1 className="text-5xl font-bold">Sign Up!</h1>
+                            <h1 className="text-5xl text-white font-bold">Sign Up!</h1>
                             <p className="py-6">
 
                             </p>
