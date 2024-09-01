@@ -43,7 +43,7 @@ export default function cryptoInfo() {
                     <div className="card-body">
                         <h2 className="font-bold text-xl">{cryptoIteam.name}</h2>
                         <p className="text-sm">Click on join button to Earn Real Money</p>
-                        <div className="card-actions justify-end">
+                        <div className="card-actions justify-center lg:justify-end">
                             <a className="btn btn-primary text-sm" href={cryptoIteam.reflink} target="_blank" rel="noopener noreferrer"> Join Now </a>
                         </div>
                     </div>
