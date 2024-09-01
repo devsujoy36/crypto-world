@@ -22,7 +22,7 @@ export default function Navbar({ count, setCount }) {
                         <li><a>Footer</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Crypto World</a>
+                <a href="#" className="btn btn-ghost text-xl">Crypto World</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
