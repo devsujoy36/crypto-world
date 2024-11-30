@@ -17,7 +17,7 @@ export default function Navbar({ count, setCount }) {
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Contact</a></li>
-                        <li><a href="https://devsujoy36.github.io/Food-Web/">Food</a></li>
+                        <li><a href="https://nestmartbd.netlify.app">Food</a></li>
                         <li><a href="https://devsujoy36.github.io/Influencer-Porfolio/?fbclid=IwY2xjawE_6L9leHRuA2FlbQIxMAABHYmzxrdM38RZLgC3Y_l5LCDiREZ706_w90Tu1QNn9qm6TrxzGTV_eNpn9g_aem_FJU95Yt-Yi6iiVANysdnDg">Influencer</a></li>
                         <li><a>Footer</a></li>
                     </ul>
@@ -29,7 +29,7 @@ export default function Navbar({ count, setCount }) {
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Contact</a></li>
-                    <li><a href="https://devsujoy36.github.io/Food-Web/">Food</a></li>
+                    <li><a href="https://nestmartbd.netlify.app">Food</a></li>
                     <li><a href="https://devsujoy36.github.io/Influencer-Porfolio/?fbclid=IwY2xjawE_6L9leHRuA2FlbQIxMAABHYmzxrdM38RZLgC3Y_l5LCDiREZ706_w90Tu1QNn9qm6TrxzGTV_eNpn9g_aem_FJU95Yt-Yi6iiVANysdnDg">Influencer</a></li>
                     <li><a>Footer</a></li>
                 </ul>
