@@ -26,6 +26,7 @@ export default function cryptoInfo() {
         { name: 'MemeFi', img: `${img10}`, reflink: 'https://t.me/memefi_coin_bot/main?startapp=r_e2bf11aace' },
         { name: 'Cherrygame', img: `${img11}`, reflink: 'https://t.me/cherrygame_io_bot/game?startapp=r_5564811482 ' },
         { name: 'FreeDoruv', img: `${img12}`, reflink: 'https://t.me/FreeDurovBot/app?startapp=ref_AiJbZjb6' },
+        
         { name: 'Pixelverse', img: `${img13}`, reflink: 'https://t.me/pixelversexyzbot?start=5564811482' },
         { name: 'Goats', img: `${img14}`, reflink: 'https://t.me/realgoats_bot/run?startapp=d49845f9-e3ec-4bea-a73f-f751a9217e2b' }
     ]
@@ -34,7 +35,6 @@ export default function cryptoInfo() {
     return (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 m-4 ">
             {cryptoData.map((cryptoIteam, index) => (
-
                 <div key={index} className="card bg-base-100 shadow-xl">
                     <figure className="p-2">
                         <img src={cryptoIteam.img || 'src/assets/CryptoImgs/default.jpg'} alt={cryptoIteam.name} className="h-30 lg:h-40 lg:w-full rounded-lg" />
